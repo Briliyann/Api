@@ -1,0 +1,9 @@
+CRITICAL - 2025-10-20 06:45:31 --> Error: Class "App\Controllers\BiodataModel" not found
+[Method: POST, Route: biodata/ubah/1]
+in APPPATH\Controllers\BiodataController.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BiodataController->ubah('1')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BiodataController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

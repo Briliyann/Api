@@ -41,7 +41,7 @@ class LoginController extends ResourceController
             ]
         ];
 
-        return $this->respond($data);
+        return $this->respond(['code'=>200,'status'=>true,'data'=>$data]);
     }
 
     private function RandomString($length = 100)
